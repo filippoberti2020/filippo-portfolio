@@ -1,0 +1,54 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Filippo\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @chakra-ui/icons
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Certbot\bin;C:\Program Files\nodejs\;C:\Users\Filippo\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Filippo\AppData\Local\Programs\Python\Python310\;C:\Users\Filippo\AppData\Local\Microsoft\WindowsApps;;C:\Users\Filippo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Filippo\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\Filippo\Desktop\filippo-portfolio\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node'
+
+npm manifest: 
+  {
+    "name": "filippoberti-homepage",
+    "version": "1.0.0",
+    "description": "Filippo's website",
+    "main": "index.js",
+    "scripts": {
+      "dev": "next dev -H 0.0.0.0",
+      "build": "next build",
+      "prettier": "prettier -write .",
+      "lint": "next lint"
+    },
+    "keywords": [],
+    "author": "Filippo Berti",
+    "license": "MIT",
+    "dependencies": {
+      "@chakra-ui/react": "^1.7.1",
+      "@emotion/react": "^11.6.0",
+      "@emotion/styled": "^11.6.0",
+      "framer-motion": "^5.3.0",
+      "next": "^12.0.4",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2"
+    },
+    "devDependencies": {
+      "eslint": "^7.32.0",
+      "eslint-config-next": "^12.0.4",
+      "prettier": "^2.4.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
