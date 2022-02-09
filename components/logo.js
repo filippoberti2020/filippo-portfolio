@@ -9,15 +9,8 @@ const Logo=() =>{
      return (
         <Link href="/">
         <a>
-        <div class="don">
-            <div class="clock">
-                <div class="clock-inner" >
-                    <div  class="clock-center"></div>
-                    <div class="hand second"></div>
-                    <div class="hand minute" ></div>
-                    <div class="hand hour"></div>
-                </div>
-            </div>
+        <div>
+           
             
             <Text
 

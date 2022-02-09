@@ -6,13 +6,7 @@ import {IoLogoGithub, IoMailOutline} from 'react-icons/io5'
 import Layout from '../components/layout/article'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 const Page= () =>{
-    var styles = {
-        '&:hover': {
-            backgroundColor: '#fff',
-          
-        },
-      
-        }
+   
     return (
       
         <Layout>
