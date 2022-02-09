@@ -5,6 +5,7 @@ import {WorkGridItem} from '../components/grid-item'
 import thumbBiodental from '../public/images/works/biodental.png'
 import thumbTimerApp from '../public/images/works/timerapp.png'
 import thumbBlederReder from '../public/images/works/blenderrender.png'
+import thumbShippingBrain from '../public/images/works/shippingBrain.jpg'
 const Works =()=>{
     return(
         <Layout title="Works">
@@ -24,11 +25,17 @@ const Works =()=>{
             </WorkGridItem>
             </Section>
             <Section delay={0.1}>
+            <WorkGridItem id="shippingbrain" title="Shipping Brain" thumbnail={thumbShippingBrain}>
+            Website designed and created for a company that manages shipments.
+            </WorkGridItem>
+            </Section>
+            <Section delay={0.1}>
             <WorkGridItem id="productrender" title="Product Render" thumbnail={thumbBlederReder}>
             Image and video render of a real product for a client.
             </WorkGridItem>
             </Section>
             </SimpleGrid>
+            
             <Divider my={6} />
         </Container>
         </Layout>

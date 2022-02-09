@@ -14,7 +14,7 @@ const Work=() => {
                     Biodental <Badge>2020</Badge>
                 </Title>
                 <p>
-                A site created or designed from scratch for the specific requirements of a medical dentist office.
+                A site created and designed from scratch for the specific requirements of a medical dentist office.
                 </p>
                 <List ml={4} my={4}>
                 <ListItem > 

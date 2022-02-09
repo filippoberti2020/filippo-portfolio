@@ -1,16 +1,24 @@
 import NextLink from 'next/link'
 import {Container, Box , Text, Heading, Image, Link, List, ListItem, Button, Icon, useColorModeValue } from '@chakra-ui/react'
-import Section from '../components/section'
 import Paragraph from '../components/paragrapth'
 import {BioSection, BioYear} from '../components/bio'
 import {IoLogoGithub, IoMailOutline} from 'react-icons/io5'
 import Layout from '../components/layout/article'
-
+import { ChevronRightIcon } from '@chakra-ui/icons'
 const Page= () =>{
+    var styles = {
+        '&:hover': {
+            backgroundColor: '#fff',
+          
+        },
+      
+        }
     return (
+      
         <Layout>
+        
         <Container >
-             <Box borderRadius="lg" color={useColorModeValue('black','gray.100')} bg={useColorModeValue('#F9FAFB','#333336')} p={3} mb={6} align="center">
+             <Box borderRadius="lg" color={useColorModeValue('black','gray.100')} bg={useColorModeValue('#F9FAFB','#333336')} p={3} mb={6} align="center" mt={50}>
                 Hello, I&apos;m Filippo Berti. 
                 I&apos;m a <Text as="u" color="yellow.500">3d artist</Text> and a <Text as="u" color="red.600">full-stack developer</Text> based in Italy!       
             </Box>
@@ -46,7 +54,13 @@ const Page= () =>{
                         RivettiEmpire
                     </Link>
                     .</Paragraph>
-                  
+                    <Box align="center" my={4}>
+                        <NextLink href="/works">
+                            <Button  _hover={{ bg: "#1A365D80" }} _focus={{ bg: "#1A365D80" }} rightIcon={<ChevronRightIcon />} colorScheme="#1A365D80" color="#0f0f0f" backgroundColor="blue.900">
+                            My portfolio
+                            </Button>
+                        </NextLink>
+                    </Box>
             </Box>
             <Box id="bio" delay={0.2}  >
                 <Heading as="h3" variant="section-title">
@@ -57,18 +71,27 @@ const Page= () =>{
                         Born in Italy.
                     </BioSection> 
                     <BioSection>
+                        <BioYear>2019</BioYear>
+                        CISCO IT Essentials Course Certificate
+                    </BioSection>   
+                    <BioSection>
                         <BioYear>2021</BioYear>
                         Graduated in Computer Science at I.T.S.T Kennedy High School, Pordenone, Italy.
-                    </BioSection>             
+                    </BioSection>           
             </Box>
-           
+            <Box id="bio" delay={0.2}  >
+                <Heading as="h3" variant="section-title">
+                I ♡ 
+                </Heading>
+                <Paragraph>Design and Architecture, 3d Printing, CAD Modeling, Networking.</Paragraph>     
+            </Box>
             <Box id="contact" delay={0.3}  >
                 <Heading as="h3" variant="section-title">
                     Contact
                 </Heading>
                     <List>
                         <ListItem>
-                            <Link href="https://github.com/filippoberti2020" target="_blank" color="blue.700">
+                            <Link href="mailto:bertifilippo2002@gmail.com" target="_blank" color="blue.700">
                             <Button variant="ghost" colorScheme="blue.700" leftIcon={<Icon as={IoMailOutline} />}>filippoberti57@gmail.com</Button>
                             </Link>
                         </ListItem>

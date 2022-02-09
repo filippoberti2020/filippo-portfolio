@@ -14,7 +14,8 @@ const Work=() => {
                     SmarTimer <Badge>2020</Badge>
                 </Title>
                 <p>
-                An app designed for the relaxation of high-level athletes. Includes various types of timers with sound warnings and visual animations aimed at performance.
+                An app designed for high-level athletes. Includes various types of timers with sound warnings and visual animations aimed at performance.
+                And with the aim of not having to get distracted and waste time stopping the timer.
                 </p>
                 <List ml={4} my={4}>
                 <ListItem > 
