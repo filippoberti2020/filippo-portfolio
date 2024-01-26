@@ -14,7 +14,7 @@ const Work=() => {
                     Biodental <Badge>2020</Badge>
                 </Title>
                 <p>
-                A site created and designed from scratch for the specific requirements of a medical dentist office.
+                A website created and designed from scratch for the specific requirements of a medical dentist office.
                 </p>
                 <List ml={4} my={4}>
                 <ListItem > 
@@ -32,7 +32,7 @@ const Work=() => {
                 <spam>Html, Css, Javascript</spam>
                 </ListItem>
                 </List>   
-                <WorkImage src="/images/works/biodental.png" alt="Biodental" />
+                <WorkImage src="/images/works/biodental-fullpage.png" alt="Biodental dentist website" />
             </Container>
         </Layout>
     )

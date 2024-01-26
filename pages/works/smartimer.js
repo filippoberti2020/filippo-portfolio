@@ -33,7 +33,7 @@ const Work=() => {
                 <spam>Java</spam>
                 </ListItem>
                 </List>   
-                <WorkImage src="/images/works/timerapp.png" alt="smarTimer" />
+                <WorkImage src="/images/works/timerapp.png" alt="smarTimer mobile app" />
             </Container>
         </Layout>
     )
